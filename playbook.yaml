@@ -1,7 +1,6 @@
 ---
-- name:
-  hosts: centos
+- hosts: centos
   tasks:
-    - name: Retorna DNS
-      ansible.builtin.debug: "msg: filter=ansible_dns"
+   - name: Retorna DNS
+     ansible.builtin.debug: "ansible_dns"
 ...      
